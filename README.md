@@ -1,10 +1,16 @@
 # SIVABALAJI-R-OOPS-IA-1
 
 
+SIVABALAJI R 
 
-Insurance Claims – Java Program
 
-Problem Statement
+##PROBLEM A
+
+
+
+###Insurance Claims – Java Program
+
+###Problem Statement
 
 Write a Java program to create a class for an Insurance Claims scenario.
 
@@ -23,7 +29,7 @@ Override the "display()" method in the "MedicalClaim" class to display all the c
 
 ---
 
-Assigned Data
+###Assigned Data
 
 Attribute| Assigned Data
 Claim ID| 1001
@@ -32,7 +38,7 @@ Hospital Name| Apollo Hospital
 
 ---
 
-Sample Output
+###Sample Output
 
 Insurance Claim Details
 ------------------------
@@ -42,7 +48,7 @@ Hospital Name : Apollo Hospital
 
 ---
 
-Result
+###Result
 
 The program successfully creates a "Claim" class and a "MedicalClaim" subclass, demonstrates inheritance and method overriding, and displays all the insurance claim details.
 
