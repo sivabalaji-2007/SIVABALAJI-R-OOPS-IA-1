@@ -31,9 +31,12 @@ Override the "display()" method in the "MedicalClaim" class to display all the c
 
 ### Assigned Data
 
-Attribute| Assigned Data
-Claim ID| 1001
-Amount| ₹75,000
+Attribute | Assigned Data
+
+Claim ID | 1001
+
+Amount | ₹75,000
+
 Hospital Name| Apollo Hospital
 
 ---
