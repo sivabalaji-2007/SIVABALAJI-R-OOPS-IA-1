@@ -6,10 +6,10 @@ SIVABALAJI R
 
 ## PROBLEM A
 
-
+---
 
 ### Insurance Claims – Java Program
-
+---
 ### Problem Statement
 
 Write a Java program to create a class for an Insurance Claims scenario.
