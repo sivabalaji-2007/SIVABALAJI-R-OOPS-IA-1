@@ -1,0 +1,45 @@
+## PROBLEM A 
+
+class Claim {
+    int claimId;
+    double amount;
+
+    // Constructor
+    Claim(int claimId, double amount) {
+        this.claimId = claimId;
+        this.amount = amount;
+    }
+
+    void display() {
+        System.out.println("Claim ID: " + claimId);
+        System.out.println("Amount: Rs." + amount);
+    }
+}
+
+class MedicalClaim extends Claim {
+    String hospitalName;
+
+    MedicalClaim(int claimId, double amount, String hospitalName) {
+        super(claimId, amount);
+        this.hospitalName = hospitalName;
+    }
+
+    // Method overriding
+    @Override
+    void display() {
+        System.out.println("Claim ID: " + claimId);
+        System.out.println("Amount: Rs." + amount);
+        System.out.println("Hospital Name: " + hospitalName);
+    }
+}
+
+public class MedicalClaimDemo {
+    public static void main(String[] args) {
+
+        MedicalClaim claim =
+            new MedicalClaim(101, 75000, "Apollo Hospital");
+
+        System.out.println("Medical Claim Details");
+        claim.display();
+    }
+}
