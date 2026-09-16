@@ -66,7 +66,7 @@ The program successfully creates a "Claim" class and a "MedicalClaim" subclass, 
 Create an interface Approvable with a method approveClaim(). Implement the interface in a class AutoClaim and display the claim approval status.
 ---
 ## Assigned Data
-|---------------|----------|
+
  | Data          | Value    |
 | ------------- | -------- |
 | Claim ID      | AC101    |
@@ -74,11 +74,11 @@ Create an interface Approvable with a method approveClaim(). Implement the inter
 | Customer Name | Siva     |
 |---------------|----------|
 | Vehicle Type  | Car      |
-|---------------|----------|
+|               |----------|
 | Claim Amount  | ₹50,000  |
-|---------------|----------|
+|               |          |
 | Claim Status  | Approved |
-|---------------|----------|
+|               |          |
 ---
 ## Sample Output
 
