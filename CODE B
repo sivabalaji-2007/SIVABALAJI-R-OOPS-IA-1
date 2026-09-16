@@ -1,0 +1,42 @@
+## PROGRAM B 
+---
+
+interface Approvable {
+    void approveClaim();
+}
+
+class AutoClaim implements Approvable {
+
+    int claimId;
+    double amount;
+    String vehicleType;
+
+    AutoClaim(int claimId, double amount, String vehicleType) {
+        this.claimId = claimId;
+        this.amount = amount;
+        this.vehicleType = vehicleType;
+    }
+
+    void display() {
+        System.out.println("Claim ID: " + claimId);
+        System.out.println("Amount: Rs." + amount);
+        System.out.println("Vehicle Type: " + vehicleType);
+    }
+
+    @Override
+    public void approveClaim() {
+        System.out.println("Claim Status: Approved");
+    }
+}
+
+public class AutoClaimDemo {
+    public static void main(String[] args) {
+
+        AutoClaim claim =
+            new AutoClaim(102, 50000, "Car");
+
+        System.out.println("Auto Claim Details");
+        claim.display();
+        claim.approveClaim();
+    }
+}
