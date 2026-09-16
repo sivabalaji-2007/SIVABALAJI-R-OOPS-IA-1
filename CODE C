@@ -1,0 +1,28 @@
+## PROGRAM C
+---
+
+class Claim {
+    int claimId = 103;
+    double amount = 30000;
+
+    void display() {
+        System.out.println("Claim ID: " + claimId);
+        System.out.println("Amount: Rs." + amount);
+    }
+}
+
+public class ExceptionDemo {
+    public static void main(String[] args) {
+
+        // Unassigned Claim object
+        Claim claim = null;
+
+        try {
+            claim.display();
+        }
+        catch (NullPointerException e) {
+            System.out.println("Error: Claim object is not assigned.");
+            System.out.println("NullPointerException handled successfully.");
+        }
+    }
+}
