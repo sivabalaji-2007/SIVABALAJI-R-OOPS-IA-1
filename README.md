@@ -70,11 +70,11 @@ Create an interface Approvable with a method approveClaim(). Implement the inter
  | Data          | Value    |
 | ------------- | -------- |
 | Claim ID      | AC101    |
-|---------------|----------|
+|               |          |
 | Customer Name | Siva     |
-|---------------|----------|
+|               |          |
 | Vehicle Type  | Car      |
-|               |----------|
+|               |          |
 | Claim Amount  | ₹50,000  |
 |               |          |
 | Claim Status  | Approved |
@@ -98,5 +98,34 @@ Claim Status: Approved
 
 Thus, the Approvable interface was created with the approveClaim() method and successfully implemented in the AutoClaim class. The claim details and approval status were displayed successfully.
 
+-----
 
+## PROBLEM C
+
+---
+
+## Problem Statement
+
+Write a Java program that handles NullPointerException when attempting to access an unassigned Claim object.
+
+---
+
+## ASSIGNED DATA
+
+| Data      | Value                  |
+| --------- | ---------------------- |
+| Object    | `Claim claim = null`   |
+| Claim ID  | Not assigned           |
+| Exception | `NullPointerException` |
+| Handling  | `try-catch`            |
+
+---
+## SAMAPLE OUTPUT
+
+Error: Claim object is not assigned.
+NullPointerException handled successfully.
+
+---
+## RESULT
+Thus, the Java program successfully handled the NullPointerException caused by attempting to access an unassigned Claim object.
 
