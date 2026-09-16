@@ -1,10 +1,7 @@
-## PROBLEM A 
-
 class Claim {
     int claimId;
     double amount;
 
-    // Constructor
     Claim(int claimId, double amount) {
         this.claimId = claimId;
         this.amount = amount;
@@ -24,7 +21,6 @@ class MedicalClaim extends Claim {
         this.hospitalName = hospitalName;
     }
 
-    // Method overriding
     @Override
     void display() {
         System.out.println("Claim ID: " + claimId);
@@ -33,7 +29,7 @@ class MedicalClaim extends Claim {
     }
 }
 
-public class MedicalClaimDemo {
+public class Main {
     public static void main(String[] args) {
 
         MedicalClaim claim =
